@@ -1,0 +1,57 @@
+[
+    {
+        "id": "walk-15",
+        "group": "health",
+        "title": "Take a 15-minute walk"
+    },
+    {
+        "id": "water-8",
+        "group": "health",
+        "title": "Drink 8 glasses of water"
+    },
+    {
+        "id": "bp-check",
+        "group": "health",
+        "title": "Check your blood pressure"
+    },
+    {
+        "id": "stretch",
+        "group": "health",
+        "title": "Do 5 minutes of gentle stretching"
+    },
+    {
+        "id": "breathing",
+        "group": "mind",
+        "title": "Do 5 minutes of slow breathing"
+    },
+    {
+        "id": "puzzle",
+        "group": "mind",
+        "title": "Solve one puzzle or crossword"
+    },
+    {
+        "id": "memory",
+        "group": "mind",
+        "title": "Name 5 fruits that start with A or B"
+    },
+    {
+        "id": "read",
+        "group": "mind",
+        "title": "Read a newspaper article aloud"
+    },
+    {
+        "id": "call-friend",
+        "group": "social",
+        "title": "Call a friend or relative"
+    },
+    {
+        "id": "sit-outside",
+        "group": "social",
+        "title": "Sit outside and talk with a neighbour"
+    },
+    {
+        "id": "share-meal",
+        "group": "social",
+        "title": "Eat one meal with family"
+    }
+]

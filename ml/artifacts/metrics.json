@@ -1,0 +1,52 @@
+{
+  "best_model": "random_forest",
+  "train_rows": 734,
+  "test_rows": 184,
+  "features": [
+    "Age",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "MaxHR",
+    "Oldpeak",
+    "Sex",
+    "ChestPainType",
+    "RestingECG",
+    "ExerciseAngina",
+    "ST_Slope"
+  ],
+  "medians": {
+    "Age": 55.0,
+    "RestingBP": 130.0,
+    "Cholesterol": 238.0,
+    "FastingBS": 0.0,
+    "MaxHR": 138.0,
+    "Oldpeak": 0.5
+  },
+  "models": {
+    "logistic_regression": {
+      "cv_roc_auc": 0.922,
+      "test_accuracy": 0.886,
+      "test_precision": 0.886,
+      "test_recall": 0.912,
+      "test_f1": 0.899,
+      "test_roc_auc": 0.933
+    },
+    "random_forest": {
+      "cv_roc_auc": 0.928,
+      "test_accuracy": 0.891,
+      "test_precision": 0.887,
+      "test_recall": 0.922,
+      "test_f1": 0.904,
+      "test_roc_auc": 0.931
+    },
+    "xgboost": {
+      "cv_roc_auc": 0.927,
+      "test_accuracy": 0.88,
+      "test_precision": 0.9,
+      "test_recall": 0.882,
+      "test_f1": 0.891,
+      "test_roc_auc": 0.916
+    }
+  }
+}

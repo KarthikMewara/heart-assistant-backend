@@ -1,0 +1,248 @@
+{
+    "total_cholesterol": {
+        "label": "Total cholesterol",
+        "unit": "mg/dL",
+        "bands": [
+            {
+                "max": 200,
+                "status": "normal",
+                "note": "Desirable"
+            },
+            {
+                "max": 240,
+                "status": "borderline",
+                "note": "Borderline high"
+            },
+            {
+                "max": null,
+                "status": "high",
+                "note": "High"
+            }
+        ]
+    },
+    "ldl": {
+        "label": "LDL (bad) cholesterol",
+        "unit": "mg/dL",
+        "bands": [
+            {
+                "max": 130,
+                "status": "normal",
+                "note": "Optimal or near optimal"
+            },
+            {
+                "max": 160,
+                "status": "borderline",
+                "note": "Borderline high"
+            },
+            {
+                "max": null,
+                "status": "high",
+                "note": "High"
+            }
+        ]
+    },
+    "hdl": {
+        "label": "HDL (good) cholesterol",
+        "unit": "mg/dL",
+        "bands": [
+            {
+                "max": 40,
+                "status": "high",
+                "note": "Low, which raises heart risk"
+            },
+            {
+                "max": null,
+                "status": "normal",
+                "note": "Good"
+            }
+        ]
+    },
+    "triglycerides": {
+        "label": "Triglycerides",
+        "unit": "mg/dL",
+        "bands": [
+            {
+                "max": 150,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 200,
+                "status": "borderline",
+                "note": "Borderline high"
+            },
+            {
+                "max": null,
+                "status": "high",
+                "note": "High"
+            }
+        ]
+    },
+    "systolic_bp": {
+        "label": "Blood pressure (upper)",
+        "unit": "mm Hg",
+        "bands": [
+            {
+                "max": 120,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 130,
+                "status": "borderline",
+                "note": "Elevated"
+            },
+            {
+                "max": 180,
+                "status": "high",
+                "note": "High blood pressure"
+            },
+            {
+                "max": null,
+                "status": "critical",
+                "note": "Very high: seek medical care now"
+            }
+        ]
+    },
+    "diastolic_bp": {
+        "label": "Blood pressure (lower)",
+        "unit": "mm Hg",
+        "bands": [
+            {
+                "max": 80,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 120,
+                "status": "high",
+                "note": "High blood pressure"
+            },
+            {
+                "max": null,
+                "status": "critical",
+                "note": "Very high: seek medical care now"
+            }
+        ]
+    },
+    "heart_rate": {
+        "label": "Resting heart rate",
+        "unit": "bpm",
+        "bands": [
+            {
+                "max": 40,
+                "status": "critical",
+                "note": "Very slow: contact a doctor today"
+            },
+            {
+                "max": 60,
+                "status": "borderline",
+                "note": "Slow; can be normal for active people"
+            },
+            {
+                "max": 101,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 121,
+                "status": "high",
+                "note": "Fast"
+            },
+            {
+                "max": null,
+                "status": "critical",
+                "note": "Very fast at rest: contact a doctor today"
+            }
+        ]
+    },
+    "fasting_glucose": {
+        "label": "Fasting blood sugar",
+        "unit": "mg/dL",
+        "bands": [
+            {
+                "max": 54,
+                "status": "critical",
+                "note": "Very low: eat something sweet and get help"
+            },
+            {
+                "max": 70,
+                "status": "borderline",
+                "note": "Low"
+            },
+            {
+                "max": 100,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 126,
+                "status": "borderline",
+                "note": "Prediabetes range"
+            },
+            {
+                "max": null,
+                "status": "high",
+                "note": "Diabetes range"
+            }
+        ]
+    },
+    "hba1c": {
+        "label": "HbA1c (3-month sugar)",
+        "unit": "%",
+        "bands": [
+            {
+                "max": 5.7,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 6.5,
+                "status": "borderline",
+                "note": "Prediabetes range"
+            },
+            {
+                "max": null,
+                "status": "high",
+                "note": "Diabetes range"
+            }
+        ]
+    },
+    "troponin": {
+        "label": "Troponin",
+        "unit": "ng/mL",
+        "bands": [
+            {
+                "max": 0.04,
+                "status": "normal",
+                "note": "Within usual limit (labs differ)"
+            },
+            {
+                "max": null,
+                "status": "critical",
+                "note": "Above usual limit: possible heart muscle injury, seek care today"
+            }
+        ]
+    },
+    "oldpeak": {
+        "label": "ST depression in treadmill test",
+        "unit": "mm",
+        "bands": [
+            {
+                "max": 1,
+                "status": "normal",
+                "note": "Normal"
+            },
+            {
+                "max": 2,
+                "status": "borderline",
+                "note": "Mild change"
+            },
+            {
+                "max": null,
+                "status": "high",
+                "note": "Significant change: discuss with a cardiologist"
+            }
+        ]
+    }
+}
